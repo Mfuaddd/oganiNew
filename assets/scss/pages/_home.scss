@@ -1,3 +1,66 @@
 html{
-    font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans',sans-serif;
+    // font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans',sans-serif;
+    font-family: sans-serif;
+}
+.header_phone_icon{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.hero_img{
+    background-image: url(https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg.webp);
+    padding: 100px 75px;
+}
+.header_departments_menu{
+    transition: 500ms;
+    height: 500px;
+    overflow: hidden;
+}
+.header_departments_menu_anima{
+    height:0px;
+}
+.header_navbar_btn{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid black;
+}
+.header_navbar_btn{
+    display: none;
+}
+.header_logo{
+    width: 25%;
+}
+.header_bottom_box{
+    width: 25%;
+}
+.header_departments_menu{
+    width: calc(100% - 15px);
+}
+@media only screen and (max-width: 1050px) {
+    nav{
+        display: none;
+    }
+    .header_navbar_btn{
+        display: block;
+    }
+    .header_middle_container{
+        flex-wrap: wrap;
+    }
+    .header_logo{
+        width: 90%;
+    }
+    .header_bottom_container{
+        flex-direction: column;
+    }
+    .header_departments_btn{
+        flex-grow: 1;
+    }
+    .header_bottom_box{
+        width: 100%;
+        padding: 0;
+    }
+    .header_departments_menu{
+        padding-right: 0;
+    }
 }
