@@ -1,0 +1,18 @@
+.slide_track{
+    overflow: hidden;
+}
+.tran{
+    transition: 500ms;
+}
+.slide_list{
+    display: flex;
+    backface-visibility: hidden;
+    li{
+        box-sizing: border-box;
+        min-width: 25%;
+        padding: 0 15px;
+    }
+}
+.slide_active{
+    // display: block !important;
+}
